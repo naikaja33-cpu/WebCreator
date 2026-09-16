@@ -695,7 +695,8 @@ p { color: var(--clr-text-muted); margin-bottom: 1rem; }
   font-size: 0.875rem;
   color: var(--clr-text-muted);
 }
-section1 {
+/*===========*/
+details {
             border: 1px solid #ddd;
             border-radius: 6px;
             background-color: #f9f9f9;
@@ -704,10 +705,31 @@ section1 {
             font-family: Arial, sans-serif;
             transition: all 0.3s ease;
         }
-section1[open] {
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px;
+            outline: none;
+            user-select: none;
+        }
+
+        summary:hover {
+            color: #0056b3;
+        }
+
+        details[open] {
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
+
+        .content {
+            margin-top: 10px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+/* =====  ===== */
 .socials {
   display: flex;
   gap: 1rem;
