@@ -695,7 +695,15 @@ p { color: var(--clr-text-muted); margin-bottom: 1rem; }
   font-size: 0.875rem;
   color: var(--clr-text-muted);
 }
-
+section1 {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            margin: 15px 0;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            transition: all 0.3s ease;
+        }
 .socials {
   display: flex;
   gap: 1rem;
