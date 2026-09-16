@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelForge — Professional Website Development</title>
+  <meta name="description" content="PixelForge builds fast, beautiful, conversion-focused websites for businesses that want to go online and grow." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">PixelForge<span>.</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="badge">Available for new projects</span>
+          <h1>Websites that <em>convert</em> visitors into customers.</h1>
+          <p>PixelForge is a boutique web design and development studio building fast, beautiful, and profitable websites for ambitious businesses ready to go online.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Start Your Project</a>
+            <a href="#portfolio" class="btn btn-ghost btn-lg">View Our Work</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>150+</strong><span>Sites Launched</span></li>
+            <li><strong>4.9/5</strong><span>Client Rating</span></li>
+            <li><strong>7 Days</strong><span>Avg. Delivery</span></li>
+          </ul>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">About PixelForge</span>
+          <h2>Design with purpose. Build with precision.</h2>
+          <p>We partner with founders, teams, and agencies who need a website that does more than looks good — it needs to perform, rank, and scale.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="icon">🎯</div>
+            <h3>Goal-First Design</h3>
+            <p>Every layout choice is tied to your business goals — not trends that expire in a season.</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">⚡</div>
+            <h3>Lightning Performance</h3>
+            <p>Pages load fast because we optimize images, code, and hosting from the very first pixel.</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">📈</div>
+            <h3>Built to Grow</h3>
+            <p>From a one-page landing page to a full e-commerce store, we build foundations that scale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our Services</span>
+          <h2>Everything you need to go online</h2>
+          <p>From concept to launch, we cover every step of bringing your business to the web.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" data-reveal>
+            <div class="service-icon">🎨</div>
+            <h3>Web Design</h3>
+            <p>Custom, modern UI/UX design tailored to your brand and your audience.</p>
+            <span class="service-tag">UI/UX</span>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>Clean, semantic front-end and robust back-end development using the latest tech.</p>
+            <span class="service-tag">Code</span>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-icon">🛒</div>
+            <h3>E-Commerce</h3>
+            <p>Online stores with smooth checkout, inventory tools, and payment integration.</p>
+            <span class="service-tag">Shopify / Custom</span>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-icon">🔍</div>
+            <h3>SEO Optimization</h3>
+            <p>Technical SEO, on-page optimization, and content structure to rank higher.</p>
+            <span class="service-tag">Ranking</span>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-icon">🚀</div>
+            <h3>Landing Pages</h3>
+            <p>High-converting landing pages engineered for leads, sign-ups, and sales.</p>
+            <span class="service-tag">Conversion</span>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-icon">🛠️</div>
+            <h3>Hosting & Maintenance</h3>
+            <p>Fast hosting, SSL, backups, and ongoing support to keep your site online.</p>
+            <span class="service-tag">Support</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How It Works</span>
+          <h2>From brief to launch in 4 simple steps</h2>
+        </div>
+        <div class="process-steps">
+          <div class="step">
+            <span class="step-num">01</span>
+            <h3>Discovery Call</h3>
+            <p>We learn your business, audience, and goals in a 30-minute strategy session.</p>
+          </div>
+          <div class="step-arrow" aria-hidden="true">→</div>
+          <div class="step">
+            <span class="step-num">02</span>
+            <h3>Design & Plan</h3>
+            <p>Wireframes, mood-boards, and a clear timeline so you know exactly what to expect.</p>
+          </div>
+          <div class="step-arrow" aria-hidden="true">→</div>
+          <div class="step">
+            <span class="step-num">03</span>
+            <h3>Build & Review</h3>
+            <p>We develop your site and share progress for feedback at every milestone.</p>
+          </div>
+          <div class="step-arrow" aria-hidden="true">→</div>
+          <div class="step">
+            <span class="step-num">04</span>
+            <h3>Launch & Grow</h3>
+            <p>Go live with ongoing support, SEO, and analytics to keep you ahead.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Recent work we're proud of</h2>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-1">
+              <h4>Aura Skincare</h4>
+              <p>E-Commerce Store</p>
+            </div>
+          </article>
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-2">
+              <h4>Nexus Finance</h4>
+              <p>Corporate Website</p>
+            </div>
+          </article>
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-3">
+              <h4>Fuel Athletics</h4>
+              <p>Brand & Landing Page</p>
+            </div>
+          </article>
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-4">
+              <h4>Bloom Interiors</h4>
+              <p>Portfolio Website</p>
+            </div>
+          </article>
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-5">
+              <h4>Cloudhost SaaS</h4>
+              <p>Conversion Landing</p>
+            </div>
+          </article>
+          <article class="portfolio-item" data-reveal>
+            <div class="portfolio-visual pv-6">
+              <h4>Trails & Co.</h4>
+              <p>Travel Booking Site</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Client Reviews</span>
+          <h2>What our clients say</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>"PixelForge turned our vision into a beautiful, fast website that already brings in new clients every week."</p>
+            <footer>— Sarah Mitchell, Founder, Aura Skincare</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"Professional, responsive, and detail-oriented. They handled everything from design to SEO."</p>
+            <footer>— James Chen, CEO, Nexus Finance</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"Our conversion rate increased by 40% after the redesign. Worth every penny."</p>
+            <footer>— Priya Patel, Marketing Lead, Cloudhost</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="contact">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-content">
+            <span class="eyebrow">Ready to go online?</span>
+            <h2>Let's build something great together.</h2>
+            <p>Tell us about your project and we'll get back to you within 24 hours with a tailored plan and quote.</p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+                <span class="error" id="nameError">Please enter your name.</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+                <span class="error" id="emailError">Please enter a valid email.</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="service">Service Interested</label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option>Web Design</option>
+                  <option>Web Development</option>
+                  <option>E-Commerce</option>
+                  <option>SEO Optimization</option>
+                  <option>Landing Pages</option>
+                  <option>Hosting & Maintenance</option>
+                  <option>Other</option>
+                </select>
+                <span class="error" id="serviceError">Please select a service.</span>
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget" required>
+                  <option value="">Select your budget</option>
+                  <option>$500 - $1,500</option>
+                  <option>$1,500 - $3,000</option>
+                  <option>$3,000 - $5,000</option>
+                  <option>$5,000+</option>
+                </select>
+                <span class="error" id="budgetError">Please select a budget.</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, timeline, and goals..."></textarea>
+              <span class="error" id="messageError">Please share a few details about your project.</span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">Send Message</button>
+            <p class="form-message" id="formMessage" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#" class="logo">PixelForge<span>.</span></a>
+          <p>Professional websites designed to grow your business.</p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Web Design</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">E-Commerce</a></li>
+            <li><a href="#services">SEO</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@pixelforge.dev">hello@pixelforge.dev</a></li>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li>New York, NY</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PixelForge Studio. All rights reserved.</p>
+        <div class="socials">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Dribbble">Dr</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
